@@ -68,7 +68,7 @@ describe("Recipes", function(){
             });
     });
 
-    it.only("PUT Method Successful", function(){
+    it("PUT Method Successful", function(){
         const updateData = {
             name: 'Sushi',
             ingredients: ['rice','fish','other ingredients']
