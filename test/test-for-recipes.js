@@ -68,7 +68,7 @@ describe("Recipes", function(){
             });
     });
 
-    it("PUT Method Successful", function(){
+    it.only("PUT Method Successful", function(){
         const updateData = {
             name: 'Sushi',
             ingredients: ['rice','fish','other ingredients']
@@ -79,7 +79,7 @@ describe("Recipes", function(){
             .then(function(res){
                 updateData.id = res.body[0].id;
                 return chai.request(app)
-                    .put(`/recipe/${updateData.id}`)
+                    .put(`/recipes/${updateData.id}`)
                     .send(updateData)
             })
             .then(function(res){
