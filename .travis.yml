@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: Y6OwJUqaRuKuPSIcEvGLyHU9zCHrtrf+3LyhqPglz7u+cuFUhFfCcHqvmyX9NntJS6YHj0qCiMZ0O55iiN9FtR33cJ9+fdhLV1xtCiBVwzdXnEKmuZU3WNg7zYSVT7K0wUojcQ4CsWtxRIT4p0BFaS1uWMNOSCE4iNEJ89cQ9cgWRysFlelyt8b+txy9xN1pViGFKUfY2/wowvK7RUFZzKZXE4pr9WOA2fa9yurkN5JWKP0uei04NKc8iUhY44GhywvNqZUZx4p18bzVE8ZAswWz+IWS4rPKJz+X37tXBFIxUV9mEk6IujCH9p/EZ35aEAxag1uoM0jSexv5D6JSVP14hprviYjJ91ZW1sS16HIw0KksQsO/5+3YY3H7ieQPd6PSdAgOfPBwmSTm68Ip67es+dgW4ji8Xx3Xru5cF2LFIoj7rm4jlRbI9rAJ84zUYwHICbCL9ixfhgc6PkpX1Xz4dLPJWse8VIYvaJI4iZRrL6utk8vg7ncJefzMOa3mHwdOogp4zmMHvv9R2KeFN6Ix8eY6cjJG5Ki1r7M6izFK+ncNspLS8FBplqvFEnEI+A43nIGwnyIgm+THfWJvWwIZXd/BJA2r6LQ0zJP/IeEoq9vll1L12cEjFW/3CYaM5JGbxQwc27Jy4nBjmrbEvSP0jxdoE4uI7ve6oLP/zQg=
-  app: immense-everglades-52667
+  app: https://immense-everglades-52667.herokuapp.com/
   on:
     repo: wannab3d3v3lop3r/node-shopping-list-integration-tests
