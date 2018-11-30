@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: IJ5BBcOnGh9BQNepf2VPnpiL+GJ8v+W+iqRIZPJjitmevHEHPiD7u+Y5r2ZmFu4Lc/i8IIRWgU6+FnL/FMmCRSOWBMViWz1bEUdF/1+KMkKG4KcZtsx0CD2f4PqK7BkRvu7CSL+6Li0VqpZiYxnG2gQRLgletKehfB1V7pV7VaN9ntF0O4uooQ8s1hDb8YbBPaXKYNreB/jEEMTnpkF76g26zg92m9wexiCiZNQ0u2RS+v0Pk9pRw3q9k9XxYplLrnpo7PJIew++wxwNXzmjBUKSYnpfBGGgdoxmduAzN09BJJffG9E8uTGLb6emgaamNulfk7pz3CRk4rsbrzcd2Qy/UkSgPFO+9NK/OEUq9g35jS07mnOnLrXcMNy5ngSseULcG9OgCGpqoHVcyMxkRPqjj+LMRAhEH8N7BEylhAkj/MxEUKBFNjL71LzfiZtjUNDK7+8UCp6O6lfp1pkkblt7J2W3iwOkx1kqPTwDxT/80E69ME2piMrFp7osjgsaRTDPEnPCHRNw+LGQqucqQABi0UGivFgZR/zg2V2aW2+ItnywZB0JuDwI9g7CM0ey6OMpF/Bwwu94dM6O7qW4OaaXV/5Wlw0N7GAWPXHzy88ucnydceFsxSmvID+wLD0kkDHc2LUacL4/lUH3tL5TMVGL97pbB4511jxqrVZ7HY4=
+  app: immense-everglades-52667
+  on:
+    repo: wannab3d3v3lop3r/node-shopping-list-integration-tests
