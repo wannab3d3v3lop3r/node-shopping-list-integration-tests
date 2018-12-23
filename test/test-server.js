@@ -70,7 +70,7 @@ describe("Shopping List", function() {
     return chai
       .request(app)
       .post("/shopping-list")
-      .send(newItem)
+      // .send(newItem)
       .then(function(res) {
         expect(res).to.have.status(201);
         expect(res).to.be.json;
